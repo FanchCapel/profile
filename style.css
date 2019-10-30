@@ -1,0 +1,76 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+h1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20;
+  line-height: 2;
+  background-color:#008489;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+
+h2, h3 {
+  color: #008489;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20;
+  line-height: 2;
+}
+
+body {
+  background-color: #FFFAEF;
+  font-family: arial;
+  color: #576E75;
+  font-size: 18;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #66D5CB;
+}
+
+.container {
+  text-align: center;
+}
+
+
+
+.card {
+  margin: 50px;
+  margin-right: 25%;
+  margin-left: 25%;
+  padding: 10px;
+  box-shadow: 2px 2px 30px #CBC8BF;
+  border: 10px #CBC8BF;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.title {
+  background-image: url("https://images.unsplash.com/photo-1431576901776-e539bd916ba2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80");
+  background-size: 700px;
+  text-align: center;
+  padding: 40px;
+}
+
+
+.pic {
+  border-radius: 50%;
+  box-shadow: 2px 2px 30px #FBFCFE;
+}
+
+i {
+  font-size: 30px;
+}
